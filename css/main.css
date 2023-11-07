@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* ------------- end: Google font ------------- */
+/* -------------- normalized CSS -------------- */
+
+/* ---------------- Google font --------------- */
+
+/* -------------------------------------------- */
+/*                   elements                   */
+/* -------------------------------------------- */
+
+:root {
+  /* --------------- typography --------------- */
+  --font-heading: Georgia, serif;
+  --font-body: Roboto, sans-serif;
+  /* font sizes */
+  --fs-heading-h1: 3rem;
+  --fs-heading-h2: 2.5rem;
+  --fs-heading-h3: 1.9rem;
+  --fs-heading-h1--sm: 1.9rem;
+  --fs-heading-h2--sm: 1.5rem;
+  --fs-heading-h3--sm: 1.25rem;
+  --fs-body: 1.25rem;
+  --fs-body--sm: 1rem;
+
+  /* ----------------- colours ---------------- */
+  --clr-primary: #355c42;
+  --clr-primary-accent1:#14F560;
+  --clr-primary-accent2: #50823C;
+  --clr-secondary: #853f99;
+  --clr-secondary-accent:#8613F4;
+  --clr-base-white: #fafafa;
+  --clr-base-black:#222222;
+  
+}
+
+
