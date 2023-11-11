@@ -11,20 +11,32 @@
 
 <body>
   <header>
-    <!-- site logo here -->
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper lg">
+
+      <div class="nav-container">
+        <!-- site logo here -->
+        <img src="images/brand-logo.svg" class="brand" alt="brand logo - Flora Bakeshop">
+        <button id="btn-hamburger" class="btn-hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="nav">
+          <ul id="nav-list" class="">
+            <li class="nav-item"><a class="nav-active" href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Products</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
   <main>
 
     <!-- ----------- hero section ------------ -->
-    <section id="hero">
+    <section id="hero" class="wrapper lg">
       <div>
         <h1> How are you today?</h1>
         <p>We've got the flavours matching your mood!</p>
@@ -36,76 +48,84 @@
     <!-- ------------- end: hero ------------- -->
 
     <!-- ---------- bakery section ----------- -->
-    <section>
-      <div>
-        <h2>Bakery</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis earum excepturi ea eum! Blanditiis
-          corrupti nihil perspiciatis nemo adipisci porro quasi quisquam quos at debitis distinctio illo, officia dolor?
-        </p>
-      </div>
-      <div>
-        <!-- carousel goes here -->
-      </div>
+    <div class="wrapper">
 
-    </section>
-    <!-- ------------ end: bakery ------------ -->
+      <section>
+        <div>
+          <h2>Bakery</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis earum excepturi ea eum! Blanditiis
+            corrupti nihil perspiciatis nemo adipisci porro quasi quisquam quos at debitis distinctio illo, officia
+            dolor?
+          </p>
+        </div>
+        <div>
+          <!-- carousel goes here -->
+        </div>
 
-    <!-- --------- section: about us --------- -->
-    <section>
-      <h2>About Us</h2>
-      <div>
-        <img src="" alt="">
-        <h3>Flora</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perspiciatis laborum optio eligendi
-          similique beatae.</p>
-      </div>
-      <div>
-        <img src="" alt="">
-        <h3>Stacy</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi sed ad soluta reiciendis illo?</p>
-      </div>
-    </section>
-    <!-- ----------- end: about us ----------- -->
+      </section>
+      <!-- ------------ end: bakery ------------ -->
 
-    <!-- -------- section: contact us -------- -->
-    <section id="contact-us">
-      <div>
-        <form action="">
-          <div>
-            <label for="name">Your Name</label>
-            <input type="text" name="name" id="name">
-          </div>
-          <div>
-            <label for="email">Your Email</label>
-            <input type="email" name="email" id="email">
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave us a message...">
-            </textarea>
-          </div>
-        </form>
-      </div>
-      <div>
-        <!-- google map embbeded here -->
-      </div>
-    </section>
-    <!-- ---------- end: contact us ---------- -->
-  </main>
+      <!-- --------- section: about us --------- -->
+      <section>
+        <h2>About Us</h2>
+        <div>
+          <img src="" alt="">
+          <h3>Flora</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perspiciatis laborum optio eligendi
+            similique beatae.</p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <h3>Stacy</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi sed ad soluta reiciendis illo?</p>
+        </div>
+      </section>
+      <!-- ----------- end: about us ----------- -->
 
-  <footer>
-    <div>
-      <p>
-        &copy;2023 by Flora's Bakeshop
-      </p>
+      <!-- -------- section: contact us -------- -->
+      <section id="contact-us">
+        <div>
+          <form action="">
+            <div>
+              <label for="name">Your Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div>
+              <label for="email">Your Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave us a message...">
+              </textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <!-- google map embbeded here -->
+        </div>
+      </section>
+      <!-- ---------- end: contact us ---------- -->
     </div>
-    <div>
-      <p><a href="#">Privacy Policy</a></p>
-      <p><a href="#">Terms & Conditions</a></p>
-      <p><a href="#">Cookies Policy</a></p>
-      <p><a href="#contact-us">Contact</a></p>
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="footer-copyrights">
+        <small>
+          &copy;2023 by Flora's Bakeshop
+        </small>
+      </div>
+      <div class="footer-nav" role="navigation">
+        <small class="footer-nav-item"><a href="#">Privacy Policy</a></small>
+        <small class="footer-nav-item"><a href="#">Terms & Conditions</a></small>
+        <small class="footer-nav-item"><a href="#">Cookies Policy</a></small>
+        <small class="footer-nav-item"><a href="#contact-us">Contact</a></small>
+      </div>
     </div>
   </footer>
+  <!-- site script -->
+  <script src="js/main.js"></script>
 </body>
+
 
 </html>
