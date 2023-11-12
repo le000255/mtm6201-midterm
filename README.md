@@ -7,7 +7,7 @@ Eddie | Gia Thinh **Le**
 
 ## Overall Progress
 
-![](https://geps.dev/progress/20)
+![](https://geps.dev/progress/54)
 
 ---
 
@@ -20,7 +20,7 @@ Eddie | Gia Thinh **Le**
   - [x] main.css
 - [ ] images folder
   - [ ] all photos used in the design
-  - [ ] logo
+  - [x] logo
 - [ ] js folder
   - [ ] main.js
 
@@ -28,21 +28,21 @@ Eddie | Gia Thinh **Le**
 
 #### Components:
 
-- [ ] wrapper
-- [ ] section background
-- [ ] button
-  - [ ] state: hover, focus
+- [x] wrapper
+- [x] section background
+- [x] button
+  - [x] state: hover, focus
 - [ ] card
   - [ ] state: hover, focus
 - [ ] rating stars
-- [ ] header
-  - [ ] nav: hover, focus
-- [ ] footer
-  - [ ] link states
+- [x] header
+  - [x] nav: hover, focus
+- [x] footer
+  - [x] link states
 
 #### Animations:
 
-- [ ] hero sections
+- [x] hero sections
 - [ ] another section?
 
 ### HTML
@@ -61,7 +61,7 @@ Eddie | Gia Thinh **Le**
 ### JS
 
 - [ ] active nav items
-- [ ] hamburger menu
+- [x] hamburger menu
 - [ ] carousel
 - [ ] back to top button?
 

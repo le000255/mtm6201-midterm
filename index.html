@@ -15,8 +15,14 @@
 
       <div class="nav-container">
         <!-- site logo here -->
-        <img src="images/brand-logo.svg" class="brand" alt="brand logo - Flora Bakeshop">
-        <button id="btn-hamburger" class="btn-hamburger-menu">
+        <div class="brand">
+          <a href="/#">
+            <img src="images/brand-logo.svg" class="logo" alt="brand logo - Flora Bakeshop">
+            <span>Flora's Bakeshop</span>
+          </a>
+
+        </div>
+        <button id="btn-hamburger" class="btn-hamburger-menu" aria-label="hamburger menu">
           <span></span>
           <span></span>
           <span></span>
@@ -36,23 +42,27 @@
   <main>
 
     <!-- ----------- hero section ------------ -->
-    <section id="hero" class="wrapper lg">
-      <div>
-        <h1> How are you today?</h1>
-        <p>We've got the flavours matching your mood!</p>
-        <span><a href="#">Order now</a></span>
+    <section id="hero" class="banner">
+      <div class="wrapper lg">
+        <div class="banner-heading">
+          <h1> How are you today?</h1>
+          <p>We've got the flavours matching your mood!</p>
+          <span><a href="#contact-us" class="btn btn-hero">Order now</a></span>
+        </div>
+        <div class="banner-image">
+          <img src="images/home_hero.png" alt="cupcake">
+        </div>
       </div>
-      <img src="" alt="">
 
     </section>
     <!-- ------------- end: hero ------------- -->
 
     <!-- ---------- bakery section ----------- -->
-    <div class="wrapper">
 
-      <section>
+    <section>
+      <div class="wrapper">
         <div>
-          <h2>Bakery</h2>
+          <h2 class="section-heading">Bakery</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis earum excepturi ea eum! Blanditiis
             corrupti nihil perspiciatis nemo adipisci porro quasi quisquam quos at debitis distinctio illo, officia
             dolor?
@@ -61,52 +71,65 @@
         <div>
           <!-- carousel goes here -->
         </div>
+      </div>
+    </section>
+    <!-- ------------ end: bakery ------------ -->
 
-      </section>
-      <!-- ------------ end: bakery ------------ -->
-
-      <!-- --------- section: about us --------- -->
-      <section>
-        <h2>About Us</h2>
-        <div>
-          <img src="" alt="">
-          <h3>Flora</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perspiciatis laborum optio eligendi
-            similique beatae.</p>
-        </div>
-        <div>
-          <img src="" alt="">
-          <h3>Stacy</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi sed ad soluta reiciendis illo?</p>
-        </div>
-      </section>
-      <!-- ----------- end: about us ----------- -->
-
-      <!-- -------- section: contact us -------- -->
-      <section id="contact-us">
-        <div>
-          <form action="">
-            <div>
-              <label for="name">Your Name</label>
-              <input type="text" name="name" id="name">
+    <!-- --------- section: about us --------- -->
+    <section class="section-about">
+      <div class="wrapper">
+        <h2 class="txt-white section-heading">About Us</h2>
+        <div class="section-content">
+          <div class="content">
+            <img src="images/hom_about-section-flora.png" alt="A portrait of Flora">
+            <div class="content-txt">
+              <h3 class="txt-white">Flora</h3>
+              <p class="txt-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perspiciatis
+                laborum
+                optio eligendi
+                similique beatae.</p>
             </div>
-            <div>
-              <label for="email">Your Email</label>
-              <input type="email" name="email" id="email">
+          </div>
+          <div class="content">
+            <img src="images/home_about-section-stacy.png" alt="A portrait of Stacy">
+            <div class="content-txt">
+              <h3 class="txt-white">Stacy</h3>
+              <p class="txt-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi sed ad soluta
+                reiciendis illo?</p>
             </div>
-            <div>
-              <label for="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave us a message...">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------- end: about us ----------- -->
+
+    <!-- -------- section: contact us -------- -->
+    <section id="contact-us">
+      <h2 class="section-heading">Let's Connect</h2>
+      <div>
+        <form action="">
+          <div>
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div>
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave us a message...">
               </textarea>
-            </div>
-          </form>
-        </div>
-        <div>
-          <!-- google map embbeded here -->
-        </div>
-      </section>
-      <!-- ---------- end: contact us ---------- -->
-    </div>
+          </div>
+        </form>
+      </div>
+      <div>
+        <!-- google map embbeded here -->
+      </div>
+    </section>
+    <!-- ---------- end: contact us ---------- -->
+
   </main>
   <footer>
     <div class="wrapper">
