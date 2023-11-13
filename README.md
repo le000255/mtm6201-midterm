@@ -7,7 +7,7 @@ Eddie | Gia Thinh **Le**
 
 ## Overall Progress
 
-![](https://geps.dev/progress/54)
+![](https://geps.dev/progress/80)
 
 ---
 
@@ -21,8 +21,8 @@ Eddie | Gia Thinh **Le**
 - [ ] images folder
   - [ ] all photos used in the design
   - [x] logo
-- [ ] js folder
-  - [ ] main.js
+- [x] js folder
+  - [x] main.js
 
 ### Styling
 
@@ -50,17 +50,17 @@ Eddie | Gia Thinh **Le**
 #### Pages: basic structure
 
 - [x] Home page
-- [ ] Products page
-- [ ] About page
+- [x] Products page
+- [x] About page
 
 #### Others:
 
 - [ ] skip links
-- [ ] schema
+- [x] schema
 
 ### JS
 
-- [ ] active nav items
+- [x] active nav items
 - [x] hamburger menu
 - [ ] carousel
 - [ ] back to top button?
