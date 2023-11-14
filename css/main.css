@@ -323,7 +323,7 @@ header .wrapper {
 }
 .skip-links a {
   color: var(--clr-base-white);
-  margin: .25em 0;
+  margin: 0.25em 0;
   display: block;
 }
 .skip-links a:focus,
@@ -469,12 +469,11 @@ section.banner .wrapper {
   }
   /* ------------- banner animations ------------ */
   .banner-heading {
-    animation: zoom-in 0.8s forwards;
-    transition: all 0.8s ease;
+    animation: zoom-in 0.8s 0.5s ease forwards;
   }
   .banner-image img.animate {
-    animation: fade-down 0.8s forwards;
-    transition: all 0.8s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    animation: fade-down 0.8s 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22)
+      forwards;
   }
 }
 
@@ -493,14 +492,6 @@ section.banner .wrapper {
   0% {
     opacity: 0;
     transform: translateY(-300px);
-  }
-  40% {
-    opacity: 0.25;
-    transform: translateY(-50px);
-  }
-  70% {
-    opacity: 1;
-    transform: translatey(2em);
   }
   100% {
     opacity: 1;
