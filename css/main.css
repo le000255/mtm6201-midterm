@@ -469,6 +469,7 @@ section.banner .wrapper {
   }
   /* ------------- banner animations ------------ */
   .banner-heading {
+    opacity: 0;
     animation: zoom-in 0.8s 0.5s ease forwards;
   }
   .banner-image img.animate {
