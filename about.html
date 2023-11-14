@@ -14,15 +14,14 @@
 <body>
   <header>
     <div class="wrapper lg">
-      <!-- ----------- skip-links ------------ -->
-      <ul class="skip-links" tabindex="0">
+     
+      <ul class="skip-links">
         <span class="heading">Content Skipping</span>
-        <a href="#hero" tabindex="1">Skip to page's banner</a>
-        <a href="#what-we-do" tabindex="2">Skip to "What we do"</a>
-        <a href="#who-we-are" tabindex="3">Skip to "Who we are"</a>
-        
-      </ul>
-      <!-- --------- end: skip-links --------- -->
+        <a href="#hero">Skip to page's banner</a>
+        <a href="#what-we-do">Skip to "What we do"</a>
+        <a href="#who-we-are">Skip to "Who we are"</a>
+      </ul><!--end: skip-links-->
+
       <div class="nav-container">
         <!-- site logo here -->
         <div class="brand">
@@ -43,7 +42,7 @@
             <li class="nav-item"><a href="index.html">Home</a></li>
             <li class="nav-item"><a href="products.html">Products</a></li>
             <li class="nav-item"><a href="#" class="nav-active">About</a></li>
-            <li class="nav-item"><a href="#contact-us">Contact</a></li>
+            <li class="nav-item"><a href="index.html#contact-us">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -60,7 +59,9 @@
             impedit inventore recusandae dolor ullam.</p>
         </div>
         <div class="banner-image">
-          <img src="images/about_hero.png" alt="A cake on a stand" class="animate">
+          <img src="images/about_hero-720p.png" srcset="images/products_hero-320.png 360w,
+                  images/products_hero-720.png 720w,
+                  images/products_hero-1080.png 1080w" alt="A cake on a stand" class="animate">
         </div>
       </div>
 
@@ -79,33 +80,39 @@
           </p>
           <div class="features">
             <div class="card inverted">
-              <img src="images/about_feature-01.png" alt="product thumbnail">
+              <img src="images/about_feature-01-360.png" srcset="images/about_feature-01-360.png 360w,
+                      images/about_feature-01-720.png 720w" sizes="(min-width:768px) 360px" alt="baking">
               <span class="heading">Creative Baking</span>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
                 doloremque, ipsam, praesentium iure, minima repudiandae dolorem id ad soluta voluptatum quos omnis sed
                 quam impedit suscipit obcaecati. Doloribus, animi saepe.</p>
-            </div>
+            </div><!--end:card-->
+
             <div class="card inverted">
-              <img src="images/about_feature-02.png" alt="product thumbnail">
+              <img src="images/about_feature-02-360.png" srcset="images/about_feature-02-360.png 360w,
+                      images/about_feature-02-720.png 720w" sizes="(min-width:768px) 360px"
+                alt="cupcakes with crunchy topping">
               <span class="heading gallery-card--heading">Exploring Flavours</span>
               <p class="gallery-card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
                 doloremque, ipsam, praesentium iure, minima repudiandae dolorem id ad soluta voluptatum quos omnis sed
                 quam impedit suscipit obcaecati. Doloribus, animi saepe.</p>
-            </div>
+            </div><!--end:card-->
+
             <div class="card inverted">
-              <img src="images/about_feature-03.png" alt="product thumbnail">
+              <img src="images/about_feature-03-360.png" srcset="images/about_feature-03-360.png 360w,
+                      images/about_feature-03-720.png 720w" sizes="(min-width:768px) 360px" alt="macarons">
               <span class="heading gallery-card--heading">Conquering Hearts</span>
               <p class="gallery-card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
                 doloremque, ipsam, praesentium iure, minima repudiandae dolorem id ad soluta voluptatum quos omnis sed
                 quam impedit suscipit obcaecati. Doloribus, animi saepe.</p>
-            </div>
+            </div><!--end:card-->
+
           </div>
         </div>
       </div>
-    </section>
-    <!-- ---------- end: what we do ----------- -->
+    </section><!--end: what we do-->
 
-    <!-- --------- section: about us --------- -->
+
     <section id="who-we-are" class="section-about">
       <div class="wrapper">
         <h2 class="txt-white section-heading">Who we are</h2>
@@ -131,8 +138,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- ----------- end: about us ----------- -->
+    </section><!--end: about us-->
+
 
 
   </main>
@@ -147,7 +154,7 @@
         <small class="footer-nav-item"><a href="#">Privacy Policy</a></small>
         <small class="footer-nav-item"><a href="#">Terms & Conditions</a></small>
         <small class="footer-nav-item"><a href="#">Cookies Policy</a></small>
-        <small class="footer-nav-item"><a href="#contact-us">Contact</a></small>
+        <small class="footer-nav-item"><a href="index.html#contact-us">Contact</a></small>
       </div>
     </div>
   </footer>

@@ -19,12 +19,11 @@
 <body>
   <header>
     <div class="wrapper lg">
-      <ul class="skip-links" tabindex="0">
-        <span class="heading">Content Skipping</span>
-        <a href="#hero" tabindex="1">Skip to page's banner</a>
-        <a href="#bakery" tabindex="2">Skip to "Bakery"</a>
-        <a href="#about-us" tabindex="3">Skip to "About us"</a>
-        <a href="#contact-us" tabindex="4">Skip to "Contact us"</a>
+      <ul class="skip-links">
+        <li><a href="#hero">Skip to page's banner</a></li>
+        <li><a href="#bakery">Skip to "Bakery"</a></li>
+        <li><a href="#about-us">Skip to "About us"</a></li>
+        <li><a href="#contact-us">Skip to "Contact us"</a></li>
       </ul>
       <div class="nav-container">
         <!-- site logo here -->
@@ -51,11 +50,9 @@
         </nav>
       </div>
     </div>
-
   </header>
   <main>
 
-    <!-- ----------- hero section ------------ -->
     <section id="hero" class="banner">
       <div class="wrapper lg">
         <div class="banner-heading">
@@ -66,14 +63,13 @@
           </span>
         </div>
         <div class="banner-image">
-          <img src="images/home_hero.png" alt="cupcake" class="animate">
+          <img class="animate" src="images/home_hero-720.png" sizes="(min-width:768px) 360px" srcset="images/home_hero-320.png 360w,
+                  images/home_hero-720.png 720w,
+                  images/home_hero-1080.png 1080w" alt="cupcake">
         </div>
       </div>
 
-    </section>
-    <!-- ------------- end: hero ------------- -->
-
-    <!-- ---------- bakery section ----------- -->
+    </section><!--end: hero-->
 
     <section id="bakery">
       <div class="wrapper">
@@ -88,7 +84,8 @@
           <div class="glider">
 
             <div class="glider-content">
-              <img src="images/products_card-image-01.png" alt="">
+              <img src="images/products_card-image-01-360.png" srcset="images/products_card-image-01-360.png 360w,
+                        images/products_card-image-01-720.png 720w" sizes="(min-width:768px) 360px" alt="breads">
               <div class="glider-content--text">
                 <span class="heading glider--heading">Bread Viriants</span>
                 <span class="rating glider--rating">
@@ -115,7 +112,8 @@
             </div>
 
             <div class="glider-content">
-              <img src="images/products_card-image-02.png" alt="">
+              <img src="images/products_card-image-02-360.png" srcset="images/products_card-image-02-360.png 360w,
+                        images/products_card-image-02-720.png 720w" sizes="(min-width:768px) 360px" alt="cookies">
               <div class="glider-content--text">
                 <span class="heading glider--heading">Vanilla & Choco Cookies</span>
                 <span class="rating glider--rating">
@@ -142,7 +140,8 @@
             </div>
 
             <div class="glider-content">
-              <img src="images/products_card-image-03.png" alt="">
+              <img src="images/products_card-image-03-360.png" srcset="images/products_card-image-03-360.png 360w,
+                        images/products_card-image-03-720.png 720w" sizes="(min-width:768px) 360px" alt="cupcakes">
               <div class="glider-content--text">
                 <span class="heading glider--heading">Creamy Cupcakes Viriants</span>
                 <span class="rating glider--rating">
@@ -186,17 +185,19 @@
             </span>
           </div>
         </div>
+      </div>
 
-    </section>
-    <!-- ------------ end: bakery ------------ -->
+    </section><!--end: bakery-->
 
-    <!-- --------- section: about us --------- -->
     <section id="about-us" class="section-about">
       <div class="wrapper">
         <h2 class="txt-white section-heading">About us</h2>
         <div class="section-content">
           <div class="content">
-            <img src="images/hom_about-section-flora.png" alt="A portrait of Flora">
+            <img src="images/home_about-section-flora-720.png" srcset="images/home_about-section-flora-360.png 360w,
+                    images/home_about-section-flora-720.png 720w,
+                    images/home_about-section-flora-1080.png 1080w" sizes="(min-width:768px) 360px"
+              alt="A portrait of Flora">
             <div class="content-txt">
               <h3 class="txt-white">Flora</h3>
               <p class="txt-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus perspiciatis
@@ -206,7 +207,10 @@
             </div>
           </div>
           <div class="content">
-            <img src="images/home_about-section-stacy.png" alt="A portrait of Stacy">
+            <img src="images/home_about-section-stacy-720.png" srcset="images/home_about-section-stacy-360.png 360w,
+                    images/home_about-section-stacy-720.png 720w,
+                    images/home_about-section-stacy-1080.png 1080w" sizes="(min-width:768px) 360px"
+              alt="A portrait of Stacy">
             <div class="content-txt">
               <h3 class="txt-white">Stacy</h3>
               <p class="txt-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi sed ad soluta
@@ -219,15 +223,14 @@
           </span>
         </div>
       </div>
-    </section>
-    <!-- ----------- end: about us ----------- -->
+    </section><!--end: about us-->
 
-    <!-- -------- section: contact us -------- -->
     <section id="contact-us">
+
       <div class="wrapper">
         <h2 class="section-heading">Contact us</h2>
         <div class="form-container">
-          <form class="form-flex" action="" method="get">
+          <form class="form-flex" method="get">
             <div>
               <input type="text" name="name" id="name" required>
               <label for="name">Your Name</label>
@@ -239,8 +242,6 @@
             <div>
               <textarea name="message" id="message" cols="30" rows="4" placeholder="Leave us a message..."></textarea>
               <label for="message">Message</label>
-
-              </textarea>
             </div>
             <small>
               (*): required
@@ -267,11 +268,11 @@
               </div>
               <span itemprop="telephone">613-456-7890</span>
             </div>
-
           </div>
         </div>
-    </section>
-    <!-- ---------- end: contact us ---------- -->
+      </div>
+
+    </section> <!--end: contact us-->
 
   </main>
   <footer>

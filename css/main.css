@@ -169,7 +169,6 @@ header .wrapper {
   max-width: clamp(3em, 5vw, 4.5em);
 }
 
-
 /* nav list */
 .nav-container nav {
   grid-area: nav-list;
@@ -308,18 +307,14 @@ header .wrapper {
   flex-direction: column;
   max-width: 300px;
   justify-content: space-between;
-  background-color: var(--clr-primary-accent2);
+  background-color: var(--clr-secondary-accent);
   margin-bottom: 1em;
   padding: 0.5em;
   border-radius: 0.15em;
   overflow: hidden;
   transition: all 0.2s ease;
 }
-.skip-links .heading {
-  color: var(--clr-base-white);
-  display: inline-block;
-  margin: 0 0 1em 0;
-}
+
 .skip-links:focus,
 .skip-links:focus-within,
 .skip-links:focus-visible {
@@ -328,11 +323,12 @@ header .wrapper {
 }
 .skip-links a {
   color: var(--clr-base-white);
+  margin: .25em 0;
+  display: block;
 }
 .skip-links a:focus,
 .skip-links a:hover {
-  background-color: var(--clr-primary-accent1);
-  color: var(--clr-base-black);
+  background-color: var(--clr-base-black);
 }
 .skip-links a:not(:last-of-type) {
   margin-bottom: 0.5em;
@@ -571,7 +567,6 @@ h2.section-heading {
 /* ------------------ ratings ----------------- */
 .rating {
   display: flex;
-  /* color: var(--clr-primary-accent1); */
 }
 
 .material-symbols-rounded {
@@ -579,6 +574,7 @@ h2.section-heading {
 }
 .rating span {
   color: var(--clr-primary-accent1);
+  color: var(--clr-primary-accent2);
   position: relative;
   max-width: 22px;
 }
