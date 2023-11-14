@@ -9,3 +9,4 @@ butnHamburger.addEventListener("click", () => {
   butnHamburger.classList.toggle(toggleClass)
   navMenu.classList.toggle(toggleClass)
 })
+
