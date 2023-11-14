@@ -7,7 +7,7 @@ Eddie | Gia Thinh **Le**
 
 ## Overall Progress
 
-![](https://geps.dev/progress/90)
+![](https://geps.dev/progress/98)
 
 ---
 
@@ -42,8 +42,8 @@ Eddie | Gia Thinh **Le**
 
 #### Animations:
 
-- [ ] hero sections
-- [ ] another section?
+- [x] hero sections
+- [x] another section?
 
 ### HTML
 
@@ -55,7 +55,7 @@ Eddie | Gia Thinh **Le**
 
 #### Others:
 
-- [ ] skip links
+- [x] skip links
 - [x] schema
 
 

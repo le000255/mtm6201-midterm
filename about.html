@@ -4,15 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
+  <!-- custom style -->
   <link rel="stylesheet" href="css/main.css">
-  <title>Flora's Bakeshop | Mid-term</title>
+  <title>Flora's Bakeshop | About</title>
 </head>
 
 <body>
   <header>
     <div class="wrapper lg">
-
+      <!-- ----------- skip-links ------------ -->
+      <ul class="skip-links" tabindex="0">
+        <span class="heading">Content Skipping</span>
+        <a href="#hero" tabindex="1">Skip to page's banner</a>
+        <a href="#what-we-do" tabindex="2">Skip to "What we do"</a>
+        <a href="#who-we-are" tabindex="3">Skip to "Who we are"</a>
+        
+      </ul>
+      <!-- --------- end: skip-links --------- -->
       <div class="nav-container">
         <!-- site logo here -->
         <div class="brand">
@@ -48,10 +58,9 @@
           <h1>Our Baking Journey</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora rem eos quaerat voluptates odit suscipit
             impedit inventore recusandae dolor ullam.</p>
-          <span><a href="#contact-us" class="btn btn-hero">Get in touch</a></span>
         </div>
         <div class="banner-image">
-          <img src="images/about_hero.png" alt="A cake on a stand">
+          <img src="images/about_hero.png" alt="A cake on a stand" class="animate">
         </div>
       </div>
 
@@ -60,7 +69,7 @@
 
     <!-- ------------ what we do ------------- -->
 
-    <section>
+    <section id="what-we-do">
       <div class="wrapper">
         <div>
           <h2 class="section-heading">What we do</h2>
@@ -95,8 +104,9 @@
       </div>
     </section>
     <!-- ---------- end: what we do ----------- -->
+
     <!-- --------- section: about us --------- -->
-    <section class="section-about">
+    <section id="who-we-are" class="section-about">
       <div class="wrapper">
         <h2 class="txt-white section-heading">Who we are</h2>
         <div class="section-content">

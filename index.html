@@ -19,7 +19,13 @@
 <body>
   <header>
     <div class="wrapper lg">
-
+      <ul class="skip-links" tabindex="0">
+        <span class="heading">Content Skipping</span>
+        <a href="#hero" tabindex="1">Skip to page's banner</a>
+        <a href="#bakery" tabindex="2">Skip to "Bakery"</a>
+        <a href="#about-us" tabindex="3">Skip to "About us"</a>
+        <a href="#contact-us" tabindex="4">Skip to "Contact us"</a>
+      </ul>
       <div class="nav-container">
         <!-- site logo here -->
         <div class="brand">
@@ -45,6 +51,7 @@
         </nav>
       </div>
     </div>
+
   </header>
   <main>
 
@@ -54,10 +61,12 @@
         <div class="banner-heading">
           <h1> How are you today?</h1>
           <p>We've got the flavours matching your mood!</p>
-          <span><a href="#contact-us" class="btn btn-hero">Order now</a></span>
+          <span>
+            <a href="#contact-us" class="btn btn-hero">Order now</a>
+          </span>
         </div>
         <div class="banner-image">
-          <img src="images/home_hero.png" alt="cupcake">
+          <img src="images/home_hero.png" alt="cupcake" class="animate">
         </div>
       </div>
 
@@ -66,7 +75,7 @@
 
     <!-- ---------- bakery section ----------- -->
 
-    <section>
+    <section id="bakery">
       <div class="wrapper">
         <div>
           <h2 class="section-heading">Bakery</h2>
@@ -171,14 +180,18 @@
 
           </button>
           <div role="tablist" class="dots"></div>
-
+          <div class="view-product">
+            <span>
+              <a href="products.html" class="btn">View all products</a>
+            </span>
+          </div>
         </div>
 
     </section>
     <!-- ------------ end: bakery ------------ -->
 
     <!-- --------- section: about us --------- -->
-    <section class="section-about">
+    <section id="about-us" class="section-about">
       <div class="wrapper">
         <h2 class="txt-white section-heading">About us</h2>
         <div class="section-content">
@@ -201,6 +214,9 @@
             </div>
 
           </div>
+          <span>
+            <a href="about.html" class="btn about-btn">More about us</a>
+          </span>
         </div>
       </div>
     </section>

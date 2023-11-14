@@ -7,9 +7,9 @@
   <!-- google symbols -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
+  <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
+  <!-- custom style -->
   <link rel="stylesheet" href="css/main.css">
   <title>Flora's Bakeshop | Products</title>
 </head>
@@ -17,6 +17,13 @@
 <body>
   <header>
     <div class="wrapper lg">
+      <!-- ----------- skip-links ------------ -->
+      <ul class="skip-links" tabindex="0">
+        <span class="heading">Content Skipping</span>
+        <a href="#hero" tabindex="1">Skip to page's banner</a>
+        <a href="#products" tabindex="2">Skip to "Products"</a>
+      </ul>
+      <!-- --------- end: skip-links --------- -->
 
       <div class="nav-container">
         <!-- site logo here -->
@@ -52,10 +59,9 @@
         <div class="banner-heading">
           <h1> Proudly Present: Our Artistic Products</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, similique.</p>
-          <span><a href="index.html#contact-us" class="btn btn-hero">Order now</a></span>
         </div>
         <div class="banner-image">
-          <img src="images/products_hero.png" alt="cupcake">
+          <img src="images/products_hero.png" alt="The front store" class="animate">
         </div>
       </div>
 
@@ -64,7 +70,7 @@
 
     <!-- ---------- product gallery ---------- -->
 
-    <section>
+    <section id="products">
       <div class="wrapper">
         <div>
           <h2 class="section-heading">Products</h2>
