@@ -4,10 +4,12 @@ Mid-term Assignment
 Eddie | Gia Thinh **Le**
 
 ---
+## Live page
+https://le000255.github.io/mtm6201-midterm/
 
 ## Overall Progress
 
-![](https://geps.dev/progress/98)
+![](https://geps.dev/progress/100)
 
 ---
 
@@ -64,7 +66,6 @@ Eddie | Gia Thinh **Le**
 - [x] active nav items
 - [x] hamburger menu
 - [x] carousel
-- [ ] ~~back to top button?~~
 
 ---
 
